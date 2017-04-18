@@ -13,7 +13,7 @@ This lab includes the following tasks:
 	4. [Responsive Images](#Task14)
 
 <a name="Task1" />
-##Responsive Design Guidelines##
+## Responsive Design Guidelines ##
 **Mobile First** is a concept created by [Luke Wroblewski](http://www.lukew.com/presos/preso.asp?26) that highlights the need to prioritize the mobile context when creating user experiences. Mobile First allows websites to **reach more people**, forces designers to **focus on core content and functionality**, and lets designers innovate and **take full advantage of new technologies**.
 
 **Responsive web design** responds to the needs of the users and the devices they are using. The layout changes based on the size and capabilities of the device. For example, on a phone, users might see content in a single column view, while a tablet might show the same content in two columns.
@@ -25,7 +25,7 @@ As you may remember, **Contoso Movies**  was developed as a Mobile application, 
 The following sections will describe some of the guidelines to achieve a Responsive design.
 
 <a name="Task11" />
-###**Viewport**###
+### **Viewport** ###
 
 1. Open the **_Layout.cshtml** file located in the **Views/Home** folder.
 
@@ -43,7 +43,7 @@ The following sections will describe some of the guidelines to achieve a Respons
 	> **Note:** Notice that to separate the parameters inside the **content** property, you must use a comma.
 
 <a name="Task12" />
-###**Styles**###
+### **Styles** ###
 
 When writing CSS, you have to keep things lightweight and as fluid as possible. There are lots of devices, and all of them have many different screen sizes. Since screen size is typically unknown, the content should determine how the layout will adjust to its container.
 
@@ -100,7 +100,7 @@ Instead of declaring large screen rules first only to override them for smaller 
 	_The application adapted to smaller screens_
 
 <a name="Task13" />
-###**The tel: URI Scheme**###
+### **The tel: URI Scheme** ###
 
 You should take into account that mobile devices are designed to make phone calls, and some desktop configurations can launch VoIP applications to initiate a phone call. The **tel:** URI scheme includes an easy way for users to facilitate a phone call; you can see an example in the following code.
 
@@ -129,11 +129,11 @@ You should take into account that mobile devices are designed to make phone call
 	_Making a call from the web application_
 
 <a name="Task14" />
-###**Responsive Images**###
+### **Responsive Images** ###
 
 The guideline in this topic is to load mobile optimized images by default, and then conditionally load larger images on demand. There are several different techniques for responsive images, both client-side and server side. Although the Contoso Movies app does not have many large images, some of the approaches are described in the _Cross-Browser testing_ lab.
 
-#Summary#
+# Summary #
 
 Nowadays, to build web applications that covers the most users, it is recommended to use the **Mobile First** design, which means designing your application using mobile as the baseline, and progressively increasing functionality for bigger screen sizes and devices with more capabilities. This concept is referred to as **Progressive Enhancement**.
 

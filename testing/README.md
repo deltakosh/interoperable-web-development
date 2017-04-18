@@ -161,7 +161,7 @@ You will now test your website in different browsers using **BrowserStack**. In 
 	As you saw, BrowserStack allows you to test your application in a variety of browsers and devices, be it the latest or an older version. You will learn about supporting older browsers gracefully in the next section, including how to fix the detected issues.
 
 <a name="Task2" />
-##Graceful degradation for older browsers##
+## Graceful degradation for older browsers ##
 When developing for the modern web, it is inevitable that some of the newer properties and effects will not work in older browsers. The strategy of _graceful degradation_ is based on "gracefully" handling older browsers without completely breaking functionality. There are some properties you can leave as is and let the new functionality be available in newer browsers. In other cases, however, the use of newer technologies completely breaks the user experience in older browsers and a workaround must be provided.
 
 Some of these cases are:
@@ -651,5 +651,5 @@ The way to fix it is by providing a "_shiv_" (or _HTML5 Enabling JavaScript_), t
 1. Stop debugging.
 
 
-##Summary##
+## Summary ##
 In this lab you have learned about different ways of testing websites that don't involve a lab with physical machines or devices that you manually interact with. Also, you have seen how to change your website to gracefully support older versions of different browsers.

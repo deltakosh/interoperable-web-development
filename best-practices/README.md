@@ -126,7 +126,7 @@ In this task you will use **Hand.js**, a framework for unifying touch, pen and m
 13. Run the application. The signing code will now work in every browser and handle touch correctly.
 
 <a name="Task2" />
-##Working with CSS
+## Working with CSS
 
 In this task you will learn how to apply some CSS best practices. You will first remove inline styles to classes and apply them to similar elements.
 
@@ -529,7 +529,7 @@ In this task you will learn how to apply some CSS best practices. You will first
 1. Test the website in the other browsers. The animation in the home page should behave similarly in all browsers.
 
 <a name="Task3" />
-##Plug-in free Development
+## Plug-in free Development
 
 From the early history of the web, browser plug-ins have played a vital role by enabling rich online multimedia experiences and complex web application functionality. However, along with these capabilities, plug-ins can come with some disadvantages. Because plug-ins are essentially applications that run inside the browser, they consume additional system resources and expose additional attack surface to security risks. Also, plug-ins are not designed for touch, and because they are separate applications from the browser itself, they don't benefit from any changes from the latest browsers that make websites work smoothly with touch. Finally, plug-ins are based on proprietary technologies and are written with variable code quality, making it difficult to predict or control their support across different browsers and operating systems.
 

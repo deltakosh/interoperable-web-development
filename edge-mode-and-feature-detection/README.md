@@ -10,7 +10,7 @@ This lab includes the following tasks:
 1. [Feature Detection](#Task2)
 
 <a name="Task1" />
-##HTML5 Document Setup
+## HTML5 Document Setup
 
 In this exercise you will learn about the deprecation of legacy Document Modes from Internet Explorer in favor of standard support for HTML5 Document Types in Microsoft Edge.
 
@@ -87,7 +87,7 @@ The first step is to open our colleague's application.
 1. Switch back to Visual Studio and stop debugging.
 
 <a name="Task2" />
-##Feature Detection
+## Feature Detection
 
 _Feature Detection_ is the modern way of building a website that looks and behaves its best in the different browsers and browser versions. It replaces the old error-prone approach of "sniffing" the browser type and version and trying to adjust the code based on that.
 With Feature Detection you are detecting specific features using the availability of native functions and objects in the user's browser.
@@ -150,5 +150,5 @@ In this exercise you will improve the Feature Detection mechanics of the applica
 
 You can find out about other features that can be detected using Modernizr [here](http://modernizr.com/docs/).
 
-###Summary
+### Summary
 In this lab you have learned about standard HTML5 document support in Microsoft Edge and how to use Feature Detection via Modernizr.
