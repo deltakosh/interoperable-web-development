@@ -19,7 +19,7 @@ In this lab you will take the application from the previous lab and introduce ad
 
 #### [Lab 4 - Cross Browser Testing](testing) ####
 #####Making sure everything works
-In this lab you will learn about two well-known testing tools: [Remote IE](https://remote.modern.ie/) and [Browser Stack](http://www.browserstack.com/) and test the application with the latter. Additionally, you will learn about Graceful degradation for older browsers and update the app to incorporate fixes for them.
+In this lab you will learn about two well-known testing tools: [Remote IE](https://remote.modern.ie/) , [Browser Stack](http://www.browserstack.com/), [LambdaTest](https://www.lambdatest.com) and test the application with the latter. Additionally, you will learn about Graceful degradation for older browsers and update the app to incorporate fixes for them.
 
 #### [Lab 5 - Mobile First with Responsive Design](mobile-first-design) ####
 #####Taking over other platforms
